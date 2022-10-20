@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #030331;  
+}
+
+.card {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #1F4E8C, #194078, white);
+  border: solid #fff 2px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  justify-content: center;
+}
+
+.card h1{
+  color: #032e66;
+}
+
+img{
+  width: 60px;
+  border-radius: 5px;
+
+}
+
+.chip {
+  filter: drop-shadow(2px 2px 5px #85b2ed);
+}
+
+.tres{
+  margin: 18px 0px 18px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tres h2{
+  padding-left: 9px;
+}
+.tres .nfc{
+  /*para cambiar de color a la imagen*/
+  filter: invert(1);
+}
+.tres h2, h4 {
+  color: #fff;
+}
+
+.bajo{
+  margin: 18px 0px 18px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.bajo img{
+  padding-left: 140px;
+  width: 90px;
+}
